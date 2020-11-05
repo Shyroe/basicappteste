@@ -1,0 +1,48 @@
+{
+  "schedules": [
+    {
+      "id": 1,
+      "date": "2020-04-25T14:20:00-03:00",
+      "status": "Criar clone Telegram",
+      "usersId": 1,
+      "servicesId": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Carol Dantas",
+      "age": 23,
+      "addressesId": 1,
+      "schedulesId": 1
+    },
+    {
+      "username": "Shyroe",
+      "age": 25,
+      "addressesId": 1,
+      "schedulesId": 1,
+      "id": 2
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Vistoria",
+      "price": 50
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "street": "Rua Sao Joao",
+      "number": 120,
+      "city": "Miami"
+    }
+  ]
+}
